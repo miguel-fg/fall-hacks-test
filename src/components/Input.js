@@ -1,7 +1,7 @@
-function Questions() {
+function Input({ title }) {
   return (
     <>
-      <h3>Questions</h3>
+      <h3>{title}</h3>
       <input type="text"></input>
       <br />
       <input type="text"></input>
@@ -12,4 +12,4 @@ function Questions() {
   );
 }
 
-export default Questions;
+export default Input;
