@@ -1,7 +1,13 @@
 function Questions() {
   return (
     <>
-      <h1>Qu</h1>
+      <h3>Questions</h3>
+      <input type="text"></input>
+      <br />
+      <input type="text"></input>
+      <br />
+      <input type="text"></input>
+      <br />
     </>
   );
 }
