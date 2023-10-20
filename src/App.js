@@ -1,11 +1,17 @@
+
 import "./App.css";
 import Questions from "./components/Questions";
+import Header from './components/Header';
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+
+      
       <Questions />
+
+      <Header />
+
     </>
   );
 }
