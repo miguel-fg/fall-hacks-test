@@ -6,8 +6,10 @@ function App() {
   return (
     <>
       <Header />
-      <Input title={"Questions"} />
-      <Input title={"Answers"} />
+      <div className="inputs">
+        <Input title={"Questions"} />
+        <Input title={"Answers"} />
+      </div>
     </>
   );
 }
