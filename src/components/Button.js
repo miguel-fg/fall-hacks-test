@@ -1,6 +1,7 @@
-
-export default function Button(){
-    return(
-        <button className="submit-button">Create quiz</button>
-    )
+export default function Button({ onSubmitted }) {
+  return (
+    <button className="submit-button" onClick={() => onSubmitted()}>
+      Create quiz
+    </button>
+  );
 }
