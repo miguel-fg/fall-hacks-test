@@ -1,5 +1,11 @@
-.main-header{
+.main-header {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: xx-large;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
